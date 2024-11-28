@@ -1,0 +1,15 @@
+import heapq
+class ColaDePrioridadesEnCombate:
+    def__init__(self):
+       self.heap = []
+
+    def agregar_personaje (self, personaje):  
+       heapq.happush(self.heap, (-personaje.nivel_poder, personaje))  # Convertimos en Max-heap negando el nivel de poder
+
+    def obtener_mas fuerte(self):
+       if self.heap: 
+           return heap.heappop(self.heap)[1]
+       else:
+           return None
+      
+        
