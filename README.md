@@ -1,5 +1,6 @@
 # Tp-Estructura-de-datos
 Juego Dragon Ball
+
 Implementación de una cola de prioridades para gestionar combates:
 Objetivo: Crear una cola de prioridades donde los personajes con mayor nivel de poder tengan prioridad en los enfrentamientos. Esto es útil para organizar torneos donde los personajes más fuertes combaten primero o se enfrentan en rondas avanzadas.
 
